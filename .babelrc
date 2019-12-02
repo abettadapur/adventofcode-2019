@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": "10.11.0"
+        }
+      }
+    ],
+    [
+      "@babel/preset-typescript",
+      {
+        "allExtensions": true
+      }
+    ]
+  ],
+  "plugins": []
+}

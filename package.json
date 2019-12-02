@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "one": "node babel-register.js ./1/one.ts",
+    "two": "node babel-register.js ./2/two.ts"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "@types/node": "^12.12.14",
+    "typescript": "^3.7.2"
+  }
+}
