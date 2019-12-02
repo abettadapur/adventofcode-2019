@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import computeFuel from "../common/computeFuel";
+import computeFuel from "./computeFuel";
 
 const inputFuel = 3324332;
 
